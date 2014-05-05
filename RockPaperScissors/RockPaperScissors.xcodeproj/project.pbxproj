@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37ACCE7A18E363DB00EF27AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37ACCE7918E363DA00EF27AF /* Foundation.framework */; };
+		37ACCE7C18E363DB00EF27AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37ACCE7B18E363DB00EF27AF /* CoreGraphics.framework */; };
+		37ACCE7E18E363DB00EF27AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37ACCE7D18E363DB00EF27AF /* UIKit.framework */; };
+		37ACCE8418E363DB00EF27AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37ACCE8218E363DB00EF27AF /* InfoPlist.strings */; };
+		37ACCE8618E363DB00EF27AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ACCE8518E363DB00EF27AF /* main.m */; };
+		37ACCE8A18E363DB00EF27AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ACCE8918E363DB00EF27AF /* AppDelegate.m */; };
+		37ACCE8D18E363DB00EF27AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ACCE8B18E363DB00EF27AF /* Main.storyboard */; };
+		37ACCE9018E363DB00EF27AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ACCE8F18E363DB00EF27AF /* ViewController.m */; };
+		37ACCE9218E363DB00EF27AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37ACCE9118E363DB00EF27AF /* Images.xcassets */; };
+		37ACCE9918E363DB00EF27AF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37ACCE9818E363DB00EF27AF /* XCTest.framework */; };
+		37ACCE9A18E363DB00EF27AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37ACCE7918E363DA00EF27AF /* Foundation.framework */; };
+		37ACCE9B18E363DB00EF27AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37ACCE7D18E363DB00EF27AF /* UIKit.framework */; };
+		37ACCEA318E363DB00EF27AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37ACCEA118E363DB00EF27AF /* InfoPlist.strings */; };
+		37ACCEA518E363DB00EF27AF /* RockPaperScissorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ACCEA418E363DB00EF27AF /* RockPaperScissorsTests.m */; };
+		37ACCEAF18E3B0ED00EF27AF /* youLose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37ACCEAE18E3B0ED00EF27AF /* youLose.jpg */; };
+		37ACCEB118E3B0F700EF27AF /* YouWin.png in Resources */ = {isa = PBXBuildFile; fileRef = 37ACCEB018E3B0F700EF27AF /* YouWin.png */; };
+		37ACCEB318E3B10100EF27AF /* deadLock.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 37ACCEB218E3B10100EF27AF /* deadLock.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37ACCE9C18E363DB00EF27AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37ACCE6E18E363DA00EF27AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37ACCE7518E363DA00EF27AF;
+			remoteInfo = RockPaperScissors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37ACCE7618E363DA00EF27AF /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37ACCE7918E363DA00EF27AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37ACCE7B18E363DB00EF27AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37ACCE7D18E363DB00EF27AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37ACCE8118E363DB00EF27AF /* RockPaperScissors-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RockPaperScissors-Info.plist"; sourceTree = "<group>"; };
+		37ACCE8318E363DB00EF27AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37ACCE8518E363DB00EF27AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37ACCE8718E363DB00EF27AF /* RockPaperScissors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RockPaperScissors-Prefix.pch"; sourceTree = "<group>"; };
+		37ACCE8818E363DB00EF27AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37ACCE8918E363DB00EF27AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37ACCE8C18E363DB00EF27AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37ACCE8E18E363DB00EF27AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37ACCE8F18E363DB00EF27AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37ACCE9118E363DB00EF27AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		37ACCE9718E363DB00EF27AF /* RockPaperScissorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37ACCE9818E363DB00EF27AF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		37ACCEA018E363DB00EF27AF /* RockPaperScissorsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RockPaperScissorsTests-Info.plist"; sourceTree = "<group>"; };
+		37ACCEA218E363DB00EF27AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37ACCEA418E363DB00EF27AF /* RockPaperScissorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RockPaperScissorsTests.m; sourceTree = "<group>"; };
+		37ACCEAE18E3B0ED00EF27AF /* youLose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = youLose.jpg; sourceTree = "<group>"; };
+		37ACCEB018E3B0F700EF27AF /* YouWin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouWin.png; sourceTree = "<group>"; };
+		37ACCEB218E3B10100EF27AF /* deadLock.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = deadLock.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37ACCE7318E363DA00EF27AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37ACCE7C18E363DB00EF27AF /* CoreGraphics.framework in Frameworks */,
+				37ACCE7E18E363DB00EF27AF /* UIKit.framework in Frameworks */,
+				37ACCE7A18E363DB00EF27AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37ACCE9418E363DB00EF27AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37ACCE9918E363DB00EF27AF /* XCTest.framework in Frameworks */,
+				37ACCE9B18E363DB00EF27AF /* UIKit.framework in Frameworks */,
+				37ACCE9A18E363DB00EF27AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37ACCE6D18E363DA00EF27AF = {
+			isa = PBXGroup;
+			children = (
+				37ACCE7F18E363DB00EF27AF /* RockPaperScissors */,
+				37ACCE9E18E363DB00EF27AF /* RockPaperScissorsTests */,
+				37ACCE7818E363DA00EF27AF /* Frameworks */,
+				37ACCE7718E363DA00EF27AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37ACCE7718E363DA00EF27AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37ACCE7618E363DA00EF27AF /* RockPaperScissors.app */,
+				37ACCE9718E363DB00EF27AF /* RockPaperScissorsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37ACCE7818E363DA00EF27AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37ACCE7918E363DA00EF27AF /* Foundation.framework */,
+				37ACCE7B18E363DB00EF27AF /* CoreGraphics.framework */,
+				37ACCE7D18E363DB00EF27AF /* UIKit.framework */,
+				37ACCE9818E363DB00EF27AF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37ACCE7F18E363DB00EF27AF /* RockPaperScissors */ = {
+			isa = PBXGroup;
+			children = (
+				37ACCEAE18E3B0ED00EF27AF /* youLose.jpg */,
+				37ACCEB018E3B0F700EF27AF /* YouWin.png */,
+				37ACCEB218E3B10100EF27AF /* deadLock.jpeg */,
+				37ACCE8818E363DB00EF27AF /* AppDelegate.h */,
+				37ACCE8918E363DB00EF27AF /* AppDelegate.m */,
+				37ACCE8B18E363DB00EF27AF /* Main.storyboard */,
+				37ACCE8E18E363DB00EF27AF /* ViewController.h */,
+				37ACCE8F18E363DB00EF27AF /* ViewController.m */,
+				37ACCE9118E363DB00EF27AF /* Images.xcassets */,
+				37ACCE8018E363DB00EF27AF /* Supporting Files */,
+			);
+			path = RockPaperScissors;
+			sourceTree = "<group>";
+		};
+		37ACCE8018E363DB00EF27AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37ACCE8118E363DB00EF27AF /* RockPaperScissors-Info.plist */,
+				37ACCE8218E363DB00EF27AF /* InfoPlist.strings */,
+				37ACCE8518E363DB00EF27AF /* main.m */,
+				37ACCE8718E363DB00EF27AF /* RockPaperScissors-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37ACCE9E18E363DB00EF27AF /* RockPaperScissorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				37ACCEA418E363DB00EF27AF /* RockPaperScissorsTests.m */,
+				37ACCE9F18E363DB00EF27AF /* Supporting Files */,
+			);
+			path = RockPaperScissorsTests;
+			sourceTree = "<group>";
+		};
+		37ACCE9F18E363DB00EF27AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37ACCEA018E363DB00EF27AF /* RockPaperScissorsTests-Info.plist */,
+				37ACCEA118E363DB00EF27AF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37ACCE7518E363DA00EF27AF /* RockPaperScissors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37ACCEA818E363DB00EF27AF /* Build configuration list for PBXNativeTarget "RockPaperScissors" */;
+			buildPhases = (
+				37ACCE7218E363DA00EF27AF /* Sources */,
+				37ACCE7318E363DA00EF27AF /* Frameworks */,
+				37ACCE7418E363DA00EF27AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockPaperScissors;
+			productName = RockPaperScissors;
+			productReference = 37ACCE7618E363DA00EF27AF /* RockPaperScissors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37ACCE9618E363DB00EF27AF /* RockPaperScissorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37ACCEAB18E363DB00EF27AF /* Build configuration list for PBXNativeTarget "RockPaperScissorsTests" */;
+			buildPhases = (
+				37ACCE9318E363DB00EF27AF /* Sources */,
+				37ACCE9418E363DB00EF27AF /* Frameworks */,
+				37ACCE9518E363DB00EF27AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37ACCE9D18E363DB00EF27AF /* PBXTargetDependency */,
+			);
+			name = RockPaperScissorsTests;
+			productName = RockPaperScissorsTests;
+			productReference = 37ACCE9718E363DB00EF27AF /* RockPaperScissorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37ACCE6E18E363DA00EF27AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Greg Tropino";
+				TargetAttributes = {
+					37ACCE9618E363DB00EF27AF = {
+						TestTargetID = 37ACCE7518E363DA00EF27AF;
+					};
+				};
+			};
+			buildConfigurationList = 37ACCE7118E363DA00EF27AF /* Build configuration list for PBXProject "RockPaperScissors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37ACCE6D18E363DA00EF27AF;
+			productRefGroup = 37ACCE7718E363DA00EF27AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37ACCE7518E363DA00EF27AF /* RockPaperScissors */,
+				37ACCE9618E363DB00EF27AF /* RockPaperScissorsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37ACCE7418E363DA00EF27AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37ACCE9218E363DB00EF27AF /* Images.xcassets in Resources */,
+				37ACCE8418E363DB00EF27AF /* InfoPlist.strings in Resources */,
+				37ACCEB318E3B10100EF27AF /* deadLock.jpeg in Resources */,
+				37ACCEB118E3B0F700EF27AF /* YouWin.png in Resources */,
+				37ACCEAF18E3B0ED00EF27AF /* youLose.jpg in Resources */,
+				37ACCE8D18E363DB00EF27AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37ACCE9518E363DB00EF27AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37ACCEA318E363DB00EF27AF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37ACCE7218E363DA00EF27AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37ACCE9018E363DB00EF27AF /* ViewController.m in Sources */,
+				37ACCE8A18E363DB00EF27AF /* AppDelegate.m in Sources */,
+				37ACCE8618E363DB00EF27AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37ACCE9318E363DB00EF27AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37ACCEA518E363DB00EF27AF /* RockPaperScissorsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37ACCE9D18E363DB00EF27AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37ACCE7518E363DA00EF27AF /* RockPaperScissors */;
+			targetProxy = 37ACCE9C18E363DB00EF27AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37ACCE8218E363DB00EF27AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37ACCE8318E363DB00EF27AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37ACCE8B18E363DB00EF27AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37ACCE8C18E363DB00EF27AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37ACCEA118E363DB00EF27AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37ACCEA218E363DB00EF27AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37ACCEA618E363DB00EF27AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37ACCEA718E363DB00EF27AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37ACCEA918E363DB00EF27AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RockPaperScissors/RockPaperScissors-Prefix.pch";
+				INFOPLIST_FILE = "RockPaperScissors/RockPaperScissors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37ACCEAA18E363DB00EF27AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RockPaperScissors/RockPaperScissors-Prefix.pch";
+				INFOPLIST_FILE = "RockPaperScissors/RockPaperScissors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		37ACCEAC18E363DB00EF27AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RockPaperScissors.app/RockPaperScissors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RockPaperScissors/RockPaperScissors-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RockPaperScissorsTests/RockPaperScissorsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		37ACCEAD18E363DB00EF27AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RockPaperScissors.app/RockPaperScissors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RockPaperScissors/RockPaperScissors-Prefix.pch";
+				INFOPLIST_FILE = "RockPaperScissorsTests/RockPaperScissorsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37ACCE7118E363DA00EF27AF /* Build configuration list for PBXProject "RockPaperScissors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37ACCEA618E363DB00EF27AF /* Debug */,
+				37ACCEA718E363DB00EF27AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37ACCEA818E363DB00EF27AF /* Build configuration list for PBXNativeTarget "RockPaperScissors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37ACCEA918E363DB00EF27AF /* Debug */,
+				37ACCEAA18E363DB00EF27AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		37ACCEAB18E363DB00EF27AF /* Build configuration list for PBXNativeTarget "RockPaperScissorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37ACCEAC18E363DB00EF27AF /* Debug */,
+				37ACCEAD18E363DB00EF27AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37ACCE6E18E363DA00EF27AF /* Project object */;
+}
